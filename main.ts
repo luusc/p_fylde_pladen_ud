@@ -9,7 +9,7 @@ input.onButtonPressed(Button.AB, function () {
 })
 input.onButtonPressed(Button.B, function () {
     basic.clearScreen()
-    music.playTone(131, music.beat(BeatFraction.Whole))
+    music.playTone(131, music.beat(BeatFraction.Half))
 })
 input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
@@ -19,6 +19,7 @@ input.onButtonPressed(Button.A, function () {
     }
     music.playTone(587, music.beat(BeatFraction.Whole))
 })
+basic.showString("Fylde pladen ud?")
 basic.forever(function () {
 	
 })
