@@ -3,7 +3,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "devices": "*"
+        "devices": "*",
+        "microphone": "*"
     },
     "files": [
         "main.blocks",
